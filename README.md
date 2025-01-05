@@ -1,1 +1,54 @@
 # 66160013-hw2_bootstrap
+- git clone
+- md images
+- git checkout -b development
+- git add .
+- git commit -m "สร้างโครงสร้างโปรเจคเริ่มต้น"
+- git checkout -b feature/home-page
+- git add home.html
+- git commit -m "เพิ่มโครงสร้าง พื้นฐาน " 
+- git add home.html
+- git commit -m "เพิ่ม Navbar เมนูและช่องค้นหา" 
+- git add home.html
+- git commit -m "เพิ่มส่วน hero ที่มี Bootstrap Carousel และข้อความแนะนำ"
+- git add home.html
+- git commit -m "เพิ่มส่วน section ภาพรวม"
+- git add home.html
+- git commit -m "เพิ่มส่วน Highlights พร้อมเลย์เอาต์กริดและการ์ด"
+- git add home.html
+- git commit -m "เพิ่ม Footer "
+- git add home.html
+- git commit -m "เพิ่ม Bootstrap JS ไลบรารีภายนอกและตรวจสอบการแสดงผล"
+- git checkout development
+- git checkout -b feature/about-page
+- git add about.html
+- git commit -m "เพิ่มโครงสร้าง พื้นฐาน สำหรับ about"
+- git add about.html
+- git commit -m "เพิ่ม Navbar เมนูและช่องค้าหา"
+- git add about.html
+- git commit -m "เพิ่มส่วน main ข้อมมูลและรูปภาพ"
+- git add about.html
+- git commit -m "เพิ่ม Footer" 
+- git add about.html
+- git commit -m "เพิ่ม Bootstrap JS ไลบรารีภายนอกและตรวจสอบการแสดงผล"
+- git add contact.html
+- git commit -m "เพิ่ม โครงสร้าง พื้นฐานสำหรับ contact"
+- git add contact.html
+- git commit -m "เพิ่ม Navbar เมนูและช่องค้าหา"
+- git add contact.html
+- git commit -m "เพิ่ม เวลาทำการ และ ช่องทางการติดต่อ"
+- git add contact.html
+- git commit -m "เพิ่ม contact button ติดต่อ"
+- git add contact.html
+- git commit -m "เพิ่ม model กรอกแบบฟอร์มติดต่อ"
+- git add contact.html
+- git commit -m "เพิ่ม Footer"
+- git add contact.html
+- git commit -m "เพิ่ม Bootstrap JS ไลบรารีภายนอกและตรวจสอบการแสดงผล"
+- git add .
+- git commit -m "commit"
+- git checkout development
+- git merge feature/home-page
+- git merge feature/about-page
+- git merge feature/contact-page
+- git push origin development
