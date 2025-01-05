@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ez">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>แนะนำสถานที่ท่องเที่ยว-หน้าหลัก</title>
+    <!-- Bootstrap 5 CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;700&display=swap"
+          rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+          rel="stylesheet">
+</head>
+<body>
+    <body class="min-vh-100 d-flex flex-column" style="font-family: 'Prompt', sans-serif;">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg sticky-top shadow-sm" style="background-color: #d3ba4b;">
+            <div class="container">
+                <div class="d-flex align-items-center me-5">
+                <img src="images/pngtree-suphanburi-dragon-china-museum-orenge-png-image_696134.jpg" 
+                    alt="Logo" 
+                    class="img-fluid" 
+                    style="width: 80px; height: 80px; object-fit: cover; border-radius: 50%;">
+                </div>
+
+            <button class="navbar-toggler bg-light ms-auto"
+                type="button"
+                data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse text-center" id="navbarNav">       
+                <form class="d-flex me-5">
+                    <input class="form-control me-2" type="search" placeholder="ค้นหา..." aria-label="Search">
+                    <button class="btn" style="background-color: white; color: #000;" type="submit" onmouseover="this.style.backgroundColor='#f0f0f0';" onmouseout="this.style.backgroundColor='white';">ค้นหา</button>
+                </form>
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item my-2 my-lg-0 mx-2">
+                            <a class="btn btn-outline-light px-4 w-100 " style="background-color: white; color: #000;" 
+                            onmouseover="this.style.backgroundColor='#f0f0f0';" onmouseout="this.style.backgroundColor='white';"
+                            href="home.html">หน้าหลัก</a>
+                        </li>
+                        <li class="nav-item my-2 my-lg-0 mx-2">
+                            <a class="btn btn-outline-light px-4 w-100" style="background-color: white; color: #000;"
+                            onmouseover="this.style.backgroundColor='#f0f0f0';" onmouseout="this.style.backgroundColor='white';"
+                            href="about.html">สถานที่เที่ยว</a>
+                        </li>
+                        <li class="nav-item my-2 my-lg-0 mx-2">
+                            <a class="btn btn-outline-light px-4 w-100" style="background-color: white; color: #000;"
+                            onmouseover="this.style.backgroundColor='#f0f0f0';" onmouseout="this.style.backgroundColor='white';"
+                            href="contact.html">ติดต่อเรา</a>
+                        </li>
+                    </ul>
+            </div>
+            </div>
+        </nav>
+        <div class="flex-grow-1 py-5 bg-light">
+            <div class="container">
+                <div class="row g-4 mb-5 justify-content-center">
+                    <div class="col-md-4 ">
+                        <div
+                            class="card h-100 border-0 shadow-sm rounded-4 text-center">
+                            <div class="card-body p-4">
+                                <i class="fas fa-clock fa-2x mb-3 text-secondary"></i>
+                                <h4 class="card-title mb-3"><strong>เวลาทำการ</strong></h4>
+                                <p class="card-text mb-2">เปิดทุกวัน</p>
+                                <p class="card-text mb-2">08:00 - 16:00 น.</p>
+                                <p class="card-text mb-0">ยกเว้นวันหยุดนักขัตฤกษ์</p>
+                            </div>
+                        </div>
+                    </div>
+        <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-sm rounded-4 text-center">
+                <div class="card-body p-4">
+                    <i class="fas fa-phone-alt fa-2x mb-3 text-secondary"></i>
+                    <h4 class="card-title mb-3"><strong>ช่องทางการติดต่อ</strong></h4>
+                    <p class="card-text mb-2">Phone: 0801094754</p>
+                    <p class="card-text mb-0">Email: Rapeepat@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact Button -->
+        <div class="text-center">
+            <button class="btn rounded-pill px-4 py-3"
+                data-bs-toggle="modal" data-bs-target="#contactModal"
+                style="background-color: #d1cf5a; color: white;">
+                <i class="fas fa-envelope me-2"></i>ติดต่อเรา
+            </button>
+        </div>         
+    </div>
+</div>
+     <!-- Modal -->
+     <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="contactModalLabel"><strong>กรอกฟอร์มเพื่อติดต่อ</strong></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">ชื่อ :</label>
+                    <input type="text" class="form-control" id="name" placeholder="กรอกชื่อ">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">นามสกุล :</label>
+                    <input type="email" class="form-control" id="email" placeholder="กรอกนามสกุล">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">อีเมล :</label>
+                    <input type="email" class="form-control" id="email" placeholder="กรอกอีเมล">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">เบอร์โทรศัพท์ :</label>
+                    <input type="email" class="form-control" id="email" placeholder="กรอกเบอร์โทรศัพท์">
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">ข้อความ :</label>
+                    <textarea class="form-control" id="message" rows="3" placeholder="กรอกข้อความ"></textarea>
+                </div>
+                <button type="submit" class="btn" style="background-color: rgba(238, 235, 66, 0.952); color: #000;">ส่งข้อความ</button>
+                </form>
+            </div>
+            </div>
+        </div>
+        </div>
+    <!-- Footer -->
+    <footer class="py-4 text-light" style="background:#d1cf5a;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 mb-3">
+                <h5>Contact Info</h5>
+                <p class="mb-1">Email: Rapeepat@gmail.com</p>
+                <p class="mb-0">phone: 0801094754</p>
+            </div>
+            <div class="col-md-4 mb-3">
+                <h5>Quick Links</h5>
+                <ul class="list-unstyled">
+                    <a href="home.html"
+                        class="text-light text-decoration-none">หน้าหลัก</a>
+                    <a href="about.html"
+                        class="text-light text-decoration-none">สถานที่เที่ยว</a>
+                    <a href="contact.html"
+                        class="text-light text-decoration-none">ติดต่อเรา</a>
+                </ul>
+            </div>
+            <div class="col-md-4 mb-3 text-md-end">
+                <h5>Follow Us</h5>
+                <a href="#"
+                    class="text-light text-decoration-none me-3"><i
+                        class="fab fa-facebook fa-lg"></i></a>
+                <a href="#"
+                    class="text-light text-decoration-none me-3"><i
+                        class="fab fa-twitter fa-lg"></i></a>
+                <a href="#"
+                    class="text-light text-decoration-none"><i
+                        class="fab fa-instagram fa-lg"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="text-center text-white">
+      &copy; 2025 Travel Guide
+  </div>
+</footer>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
