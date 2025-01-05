@@ -12,6 +12,48 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
           rel="stylesheet">
 </head>
-<body>   
+<body>
+    <body class="min-vh-100 d-flex flex-column" style="font-family: 'Prompt', sans-serif;">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg sticky-top shadow-sm" style="background-color: #d3ba4b;">
+            <div class="container">
+                <div class="d-flex align-items-center me-5">
+                <img src="images/pngtree-suphanburi-dragon-china-museum-orenge-png-image_696134.jpg" 
+                    alt="Logo" 
+                    class="img-fluid" 
+                    style="width: 80px; height: 80px; object-fit: cover; border-radius: 50%;">
+                </div>
+
+            <button class="navbar-toggler bg-light ms-auto"
+                type="button"
+                data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse text-center" id="navbarNav">       
+                <form class="d-flex me-5">
+                    <input class="form-control me-2" type="search" placeholder="ค้นหา..." aria-label="Search">
+                    <button class="btn" style="background-color: white; color: #000;" type="submit" onmouseover="this.style.backgroundColor='#f0f0f0';" onmouseout="this.style.backgroundColor='white';">ค้นหา</button>
+                </form>
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item my-2 my-lg-0 mx-2">
+                            <a class="btn btn-outline-light px-4 w-100 " style="background-color: white; color: #000;" 
+                            onmouseover="this.style.backgroundColor='#f0f0f0';" onmouseout="this.style.backgroundColor='white';"
+                            href="home.html">หน้าหลัก</a>
+                        </li>
+                        <li class="nav-item my-2 my-lg-0 mx-2">
+                            <a class="btn btn-outline-light px-4 w-100" style="background-color: white; color: #000;"
+                            onmouseover="this.style.backgroundColor='#f0f0f0';" onmouseout="this.style.backgroundColor='white';"
+                            href="about.html">สถานที่เที่ยว</a>
+                        </li>
+                        <li class="nav-item my-2 my-lg-0 mx-2">
+                            <a class="btn btn-outline-light px-4 w-100" style="background-color: white; color: #000;"
+                            onmouseover="this.style.backgroundColor='#f0f0f0';" onmouseout="this.style.backgroundColor='white';"
+                            href="contact.html">ติดต่อเรา</a>
+                        </li>
+                    </ul>
+            </div>
+            </div>
+        </nav>   
 </body>
 </html>
